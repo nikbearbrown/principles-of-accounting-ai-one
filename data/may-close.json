@@ -1,0 +1,25 @@
+{
+  "currency": "fictional US dollars, no taxes or interest in this case",
+  "period_end": "2026-05-31",
+  "opening": {"cash": 1000, "equipment": 600, "accumulated_depreciation": 120, "equity": 1480},
+  "coverage": {"cash_paid": 120, "months": 2, "months_used": 1},
+  "part_receipts": [
+    {"date": "2026-05-04", "units": 6, "unit_cost": 20, "on_account": false},
+    {"date": "2026-05-09", "units": 4, "unit_cost": 25, "on_account": true}
+  ],
+  "part_units_issued": 7,
+  "part_units_counted": 3,
+  "loan_received": 300,
+  "completed_cash_service": 180,
+  "completed_billed_service": 140,
+  "cash_collected_on_invoice": 70,
+  "advances": [
+    {"job": "A", "amount": 100, "received": "2026-05-15", "accepted": "2026-05-25"},
+    {"job": "B", "amount": 100, "received": "2026-05-18", "accepted": "2026-05-29"},
+    {"job": "C", "amount": 100, "received": "2026-05-27", "accepted": "2026-06-02"}
+  ],
+  "wages_paid": 80,
+  "wages_owed": 20,
+  "existing_equipment": {"cost": 600, "residual": 0, "life_months": 20},
+  "new_equipment": {"cost": 240, "paid": "2026-05-31", "in_service": "2026-06-01"}
+}
